@@ -60,7 +60,7 @@ fi
 
 ### Why Minimake?
 
-- very small
+- very small, only 42 lines of code including documentation
 - create fast scripts with commands as argument
 - create usage banners without pain
 - no learning needed
@@ -81,6 +81,10 @@ fi
 1. Add minimake-part three at the bottom of your existing file
 1. Add make_command entries above the functions you want to expose and move the
    old bash-code that's executed to these functions
+
+## Example
+
+For a live example *build.sh*. This is used to to build this README.md.
 
 ## Contributing
 
