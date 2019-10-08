@@ -22,7 +22,7 @@ This is minimake:
 #   | |  | || || |\  || |  | |  | |/ ___ \| . \| |___
 #   |_|  |_|___|_| \_|___| |_|  |_/_/   \_\_|\_\_____|
 
-## 1: MINIMAKE INIT. PUT THIS IN THE TOP OF YOUR SCRIPT
+## 1: MINIMAKE INIT. PLACE THIS IN THE TOP OF YOUR SCRIPT
 
 COMMANDS=()
 COMMAND_DESC=()
@@ -42,15 +42,15 @@ usage(){
 
 ## 2: MINIMAKE DEFINE YOUR COMMANDS
 
+## YOUR CODE HERE
+
 ## REMOVE THIS WHEN YOU GET THE PICTURE
 make_command "demo" "this command is for explaining how minimake works"
 demo(){
   echo "This is a demo command"
 }
 
-## YOUR CODE HERE
-
-## 3:MINIMAKE EXECUTION
+## 3:MINIMAKE EXECUTION. PLACE THIS AT THE BOTTOM OF YOUR SCRIPT
 if test "$#" -eq 1 &&  [[ " ${COMMANDS[@]} " =~ $1 ]]; then
   eval "$1"
 else
