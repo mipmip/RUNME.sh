@@ -1,31 +1,18 @@
-# minimake.sh
-
-"So simple, you could have written it yourself"
+# rake.sh
 
 ## Description
 
-Minimake is a tiny boilerplate for creating bash cli utilities very fast. It
-helps creating tiny self documenting bash utilities without any dependencies.
-It removes the pain of parsing command line options, writing "USAGE:" banners.
-It's a copy/paste boilerplate and so simple you could have written it yourself.
+Mm is a tiny toolkit for creating bash cli utilities fast, simple and easy.
 
-## See for you self
+Minimake is so simple you could have written it yourself.
 
-This is minimake:
+## This is minimake
 
 ```bash
 #!/usr/bin/env bash
+# Copyright 2019 Pim Snel <pim@lingewoud.nl>
 
-#    __  __ ___ _   _ ___   __  __    _    _  _______
-#   |  \/  |_ _| \ | |_ _| |  \/  |  / \  | |/ / ____|
-#   | |\/| || ||  \| || |  | |\/| | / _ \ | ' /|  _|
-#   | |  | || || |\  || |  | |  | |/ ___ \| . \| |___
-#   |_|  |_|___|_| \_|___| |_|  |_/_/   \_\_|\_\_____|
-
-## 1: MINIMAKE INIT. PLACE THIS IN THE TOP OF YOUR SCRIPT
-
-COMMANDS=()
-COMMAND_DESC=()
+COMMANDS=(); COMMAND_DESC=(); NUMARGS=$#; ARG1=$1
 
 make_command() {
   COMMANDS+=($1)
@@ -40,34 +27,34 @@ usage(){
   done
 }
 
-## 2: MINIMAKE DEFINE YOUR COMMANDS
-
-## YOUR CODE HERE
-
-## REMOVE THIS WHEN YOU GET THE PICTURE
-make_command "demo" "this command is for explaining how minimake works"
-demo(){
-  echo "This is a demo command"
+run(){
+  if test $NUMARGS -eq 1; then
+    eval "$ARG1" || usage
+  else
+    usage
+  fi
 }
-
-## 3:MINIMAKE EXECUTION. PLACE THIS AT THE BOTTOM OF YOUR SCRIPT
-if test "$#" -eq 1 &&  [[ " ${COMMANDS[@]} " =~ $1 ]]; then
-  eval "$1"
-else
-  usage
-fi
 ```
 
-### Why Minimake?
+### Why use rake.sh?
 
+- ideal for small projects that need documented build scripts
+- no dependencies
 - very small, only 42 lines of code including documentation
 - create fast scripts with commands as argument
-- create usage banners without pain
+- creates "USAGE:" banners without pain
 - no learning needed
 - no installation needed
 - no special bash knowledge needed
 - drop in solution to cleanup scripts
 - drop in solution for quickly creating a dependency-free cli utility
+
+### Why I wrote rake.sh
+
+I often use make or make to create a tool with common tasks for small projects.
+This is really overkill as I only need to run some tasks and add some quick
+instructions for my later self. Rake.sh is as quick as those two but has no
+dependancies.
 
 ## Usage, from scrath
 
