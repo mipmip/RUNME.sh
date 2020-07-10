@@ -4,7 +4,7 @@
 
 RUNME.sh is a tiny tiny toolkit for creating bash cli utilities fast, simple and easy.
 
-RUNME.sh is so simple you could have written it yourself.
+Less is more. RUNME.sh is so simple you could have written it yourself.
 
 ### WHY
 
@@ -30,7 +30,7 @@ curl -O https://raw.githubusercontent.com/mipmip/runme.sh/master/RUNME.sh && chm
 ./RUNME.sh
 ```
 
-### Why I wrote rake.sh
+### Why I wrote RUNME.sh
 
 I often use make or rake for small projects. This is really overkill as I only
 need to run some tasks and add some quick instructions for my later self.
