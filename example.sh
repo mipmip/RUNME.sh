@@ -1,10 +1,10 @@
-#/bin/sh
-source ./rake.sh
+#!/usr/bin/env sh
+. ./.runme.sh
 
-make_command "demo" "this command is for explaining how minimake works"
+make_command "demo" "this command is for explaining how run-me works"
 demo(){
   echo "showing the current directory"
   ls -al
 }
 
-run
+runme

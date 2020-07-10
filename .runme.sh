@@ -1,4 +1,3 @@
-#!/usr/bin/env bash
 # Copyright 2019 Pim Snel <pim@lingewoud.nl>
 
 COMMANDS=(); COMMAND_DESC=(); NUMARGS=$#; ARG1=$1
@@ -16,7 +15,7 @@ usage(){
   done
 }
 
-run(){
+runme(){
   if test $NUMARGS -eq 1; then
     eval "$ARG1" || usage
   else
