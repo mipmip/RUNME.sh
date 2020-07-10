@@ -21,7 +21,7 @@ RUNME.sh is so simple you could have written it yourself.
 
 ```
 curl -O https://raw.githubusercontent.com/mipmip/runme.sh/master/.runme.sh
-curl https://raw.githubusercontent.com/mipmip/runme.sh/master/RUNME.sh >> RUNME.sh && chmod +x RUNME.sh
+curl -O https://raw.githubusercontent.com/mipmip/runme.sh/master/RUNME.sh && chmod +x RUNME.sh
 
 * Edit RUNME and add your commands
 * Run it...
