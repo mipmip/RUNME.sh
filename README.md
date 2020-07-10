@@ -1,33 +1,33 @@
-# RUNME
+# RUNME.sh
 
 ## Description
 
-RUNME is a tiny toolkit for creating bash cli utilities fast, simple and easy.
+RUNME.sh is a tiny tiny toolkit for creating bash cli utilities fast, simple and easy.
 
-RUNME is so simple you could have written it yourself.
+RUNME.sh is so simple you could have written it yourself.
 
 ### WHY
 
-- suckless: 1 dependency.. a bash compatible shell
-- suckless: only 24 lines of code
-- makes "USAGE:" banners without pain
-- little bash knowledge needed
-- drop in solution to cleanup scripts
-- perfect for small projects
+- Suckless: just one dependency.. a sh compatible shell
+- Suckless: only 24 lines of code
+- Little bash knowledge needed
+- Makes "USAGE:" banners automatically
+- Drop in solution to cleanup scripts
+- Perfect for small projects
 
 ## Quickstart
 
-Run these 2 command in you project folder
+* Run these 2 command in you project folder
 
 ```
-curl -O https://raw.githubusercontent.com/mipmip/runme/master/.runme.sh
-curl https://raw.githubusercontent.com/mipmip/runme/master/example.sh >> RUNME && chmod +x RUNME
+curl -O https://raw.githubusercontent.com/mipmip/runme.sh/master/.runme.sh
+curl https://raw.githubusercontent.com/mipmip/runme.sh/master/RUNME.sh >> RUNME.sh && chmod +x RUNME.sh
 
-1. edit RUNME and add your commands
-1. try it
+* Edit RUNME and add your commands
+* Run it...
 
 ```bash
-./RUNME
+./RUNME.sh
 ```
 
 ### Why I wrote rake.sh
