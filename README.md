@@ -23,7 +23,7 @@ RUNME.sh is so simple you could have written it yourself.
 curl -O https://raw.githubusercontent.com/mipmip/runme.sh/master/.runme.sh
 curl -O https://raw.githubusercontent.com/mipmip/runme.sh/master/RUNME.sh && chmod +x RUNME.sh
 
-* Edit RUNME and add your commands
+* Edit RUNME.sh, add your commands
 * Run it...
 
 ```bash
@@ -32,10 +32,9 @@ curl -O https://raw.githubusercontent.com/mipmip/runme.sh/master/RUNME.sh && chm
 
 ### Why I wrote rake.sh
 
-I often use make or make to create a tool with common tasks for small projects.
-This is really overkill as I only need to run some tasks and add some quick
-instructions for my later self. Rake.sh is as quick as those two but has no
-dependancies.
+I often use make or rake for small projects. This is really overkill as I only
+need to run some tasks and add some quick instructions for my later self.
+RUNME.sh is as quick as those two but has no dependancies.
 
 ## Contributing
 
