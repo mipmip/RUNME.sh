@@ -19,9 +19,10 @@ Less is more. RUNME.sh is so simple you could have written it yourself.
 
 * Run these 2 command in you project folder
 
-```
+```bash
 curl -O https://raw.githubusercontent.com/mipmip/runme.sh/master/.runme.sh
 curl -O https://raw.githubusercontent.com/mipmip/runme.sh/master/RUNME.sh && chmod +x RUNME.sh
+```
 
 * Edit RUNME.sh, add your commands
 * Run it...
