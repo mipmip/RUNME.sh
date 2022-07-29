@@ -1,4 +1,4 @@
-# Copyright 2019 Pim Snel <pim@lingewoud.nl>
+# Copyright 2019-2022 Pim Snel <post@pimsnel.com>
 
 COMMANDS=(); COMMAND_DESC=(); NUMARGS=$#; ARG1=$1
 
