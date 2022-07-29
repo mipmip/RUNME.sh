@@ -1,4 +1,4 @@
-# Copyright 2019-2022 Pim Snel <post@pimsnel.com>
+# Copyright 2019-2022 Pim Snel <post@pimsnel.com> - https://github.com/mipmip/RUNME.sh
 
 COMMANDS=(); COMMAND_DESC=(); NUMARGS=$#; ARG1=$1
 
