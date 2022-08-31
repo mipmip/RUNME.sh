@@ -2,9 +2,7 @@
 
 ## Description
 
-RUNME.sh is a tiny tiny toolkit for creating bash cli utilities fast, simple and easy.
-
-Less is more. RUNME.sh is so simple you could have written it yourself.
+RUNME.sh is a one-file toolkit for creating bash cli utilities fast, simple and easy.
 
 ### Why
 
@@ -14,6 +12,8 @@ Less is more. RUNME.sh is so simple you could have written it yourself.
 - Makes "USAGE:" banners automatically
 - Drop in solution to cleanup a collections of scripts
 - Perfect for self documenting small projects
+
+> RUNME.sh is so simple you could have written it yourself.
 
 ## Quickstart
 
