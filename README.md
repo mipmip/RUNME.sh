@@ -6,21 +6,20 @@ RUNME.sh is a tiny tiny toolkit for creating bash cli utilities fast, simple and
 
 Less is more. RUNME.sh is so simple you could have written it yourself.
 
-### WHY
+### Why
 
-- Suckless: just one dependency.. a sh compatible shell
-- Suckless: only 24 lines of code
+- Suckless: just one dependency.. a sh compatible shell.
+- Suckless: only 18 lines of code, including comments.
 - Little bash knowledge needed
 - Makes "USAGE:" banners automatically
-- Drop in solution to cleanup scripts
-- Perfect for small projects
+- Drop in solution to cleanup a collections of scripts
+- Perfect for self documenting small projects
 
 ## Quickstart
 
-* Run these 2 command in you project folder
+* Run this command in you project folder
 
 ```bash
-curl -O https://raw.githubusercontent.com/mipmip/runme.sh/master/.runme.sh
 curl -O https://raw.githubusercontent.com/mipmip/runme.sh/master/RUNME.sh && chmod +x RUNME.sh
 ```
 
@@ -29,6 +28,10 @@ curl -O https://raw.githubusercontent.com/mipmip/runme.sh/master/RUNME.sh && chm
 
 ```bash
 ./RUNME.sh
+Usage: ./RUNME.sh command
+
+Commands:
+  demo            this command is for explaining how run-me works
 ```
 
 ### Why I wrote RUNME.sh
