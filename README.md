@@ -31,9 +31,9 @@ curl -O https://raw.githubusercontent.com/mipmip/runme.sh/master/RUNME.sh && chm
 * Run it...
 
 ```bash
-$ ./RUNME
+$ ./RUNME.sh
 
-Usage: ./RUNME command
+Usage: ./RUNME.sh command
 
 Commands:
   demo            this command is for explaining how run-me works
