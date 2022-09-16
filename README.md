@@ -24,7 +24,7 @@ RUNME.sh does exacly the same.
 * Run this command in you project folder
 
 ```bash
-curl -O https://raw.githubusercontent.com/mipmip/runme.sh/master/RUNME.sh && chmod +x RUNME
+curl -O https://raw.githubusercontent.com/mipmip/runme.sh/master/RUNME && chmod +x RUNME
 ```
 
 * Edit RUNME.sh, see how the demo command is works, and add your own commands
