@@ -6,7 +6,7 @@ makescript(){
   minify=$2
   echo $outfile
 
-  echo "#!/usr/bin/env sh" > $outfile
+  echo "#!/usr/bin/env bash" > $outfile
   echo "#(C)2019-2022 Pim Snel - https://github.com/mipmip/RUNME.sh" >> $outfile
 
   if $minify; then
