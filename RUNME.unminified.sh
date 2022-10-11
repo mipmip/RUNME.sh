@@ -1,4 +1,4 @@
-#!/usr/bin/env sh
+#!/usr/bin/env bash
 #(C)2019-2022 Pim Snel - https://github.com/mipmip/RUNME.sh
 CMDS=(); DESC=(); NARGS=$#; ARG1=$1
 
