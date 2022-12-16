@@ -15,7 +15,7 @@ usage(){
 }
 
 runme(){
-  if test $NARGS -eq 1; then
+  if test $NARGS -gt 0; then
     eval "$ARG1" || usage
   else
     usage

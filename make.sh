@@ -1,7 +1,7 @@
 #!/usr/bin/env sh
+source ./src/RUNME.inc.minified.sh
 
 makescript(){
-
   outfile=$1
   minify=$2
   echo $outfile
@@ -20,5 +20,12 @@ makescript(){
 
 }
 
-makescript "./RUNME.unminified.sh" false
-makescript "./RUNME.sh" true
+make_command "make" "make release and minified version"
+make(){
+  makescript "./RUNME.unminified.sh" false
+  makescript "./RUNME.sh" true
+}
+
+
+
+runme

@@ -39,6 +39,11 @@ Commands:
   demo            this command is for explaining how run-me works
 ```
 
+
+## Development
+
+The RUNME.sh source code is in src/. Use make.sh to generate release versions.
+
 ## Contributing
 
 If you would like to help, please send pull request of submit an issue.
