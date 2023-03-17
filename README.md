@@ -24,16 +24,16 @@ RUNME.sh does exacly the same.
 * Run this command in you project folder
 
 ```bash
-curl -O https://raw.githubusercontent.com/mipmip/runme.sh/master/RUNME.sh && chmod +x RUNME
+curl -O https://raw.githubusercontent.com/mipmip/runme.sh/master/RUNME.sh && chmod +x RUNME.sh
 ```
 
 * Edit RUNME.sh, see how the demo command is works, and add your own commands
 * Run it...
 
 ```bash
-$ ./RUNME
+$ ./RUNME.sh
 
-Usage: ./RUNME command
+Usage: ./RUNME.sh command
 
 Commands:
   demo            this command is for explaining how run-me works
